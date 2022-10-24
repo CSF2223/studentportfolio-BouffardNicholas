@@ -9,3 +9,39 @@ vegasGold: #c5b358
 white: #fff
 black: #000  
 */
+
+h {
+    /* If add any padding ot border onto an elemant it does not affect the width of the element */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    background-color: #200439;
+    color: #fff;
+}
+.navbar-links ul {
+    margin: 0;
+    padding:  0;
+    display:   flex;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    display: block;
+}
+
+.navbar-links li { 
+    list-style: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    }
+
+
+.navbar-links li:hover {
+    background-color: #361356;
+}
